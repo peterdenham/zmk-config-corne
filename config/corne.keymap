@@ -15,6 +15,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <1 2>;
         };
+
+        quote {
+            bindings = <&kp APOSTROPHE>;
+            key-positions = <21 22>;
+        };
     };
 
     keymap {
