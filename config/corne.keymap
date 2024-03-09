@@ -20,6 +20,11 @@
             bindings = <&kp APOSTROPHE>;
             key-positions = <21 22>;
         };
+
+        capsword {
+            bindings = <&caps_word>;
+            key-positions = <13 22>;
+        };
     };
 
     keymap {
