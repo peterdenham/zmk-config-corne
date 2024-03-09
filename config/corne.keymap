@@ -81,10 +81,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q          &kp W         &kp E        &kp R        &kp T      &kp Y        &kp U            &kp I        &mt LG(O) O   &kp P                  &none
-&none  &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F  &kp G      &kp H        &hmr LGUI J      &hmr LALT K  &hmr LCTRL L  &hmr LSHIFT SEMICOLON  &none
-&none  &kp Z          &mt LG(X) X   &mt LG(C) C  &mt LG(V) V  &kp B      &kp N        &kp M            &kp COMMA    &kp DOT       &kp FSLH               &none
-                                    &lt 4 ESC    &lt 3 SPACE  &kp TAB    &lt 2 ENTER  &lt 1 BACKSPACE  &kp DEL
+&none  &mt LG(Q) Q    &mt LG(W) W   &kp E        &mt LG(R) R  &mt LG(T) T    &kp Y        &kp U            &kp I        &mt LG(O) O   &mt LG(P) P            &none
+&none  &hml LSHIFT A  &hml LCTRL S  &hml LALT D  &hml LGUI F  &kp G          &kp H        &hmr LGUI J      &hmr LALT K  &hmr LCTRL L  &hmr LSHIFT SEMICOLON  &none
+&none  &kp Z          &mt LG(X) X   &mt LG(C) C  &mt LG(V) V  &kp B          &mt LG(N) N  &kp M            &kp COMMA    &kp DOT       &kp FSLH               &none
+                                    &lt 4 ESC    &lt 3 SPACE  &kp TAB        &lt 2 ENTER  &lt 1 BACKSPACE  &kp DEL
             >;
         };
 
