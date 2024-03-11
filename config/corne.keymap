@@ -85,7 +85,7 @@
 &none  &kp Q          &kp W         &kp E                &kp R        &kp T      &kp Y            &kp U            &kp I                    &kp O         &kp P                  &none
 &none  &hml LSHIFT A  &hml LCTRL S  &hml LALT D          &hml LGUI F  &kp G      &kp H            &hmr LGUI J      &hmr LALT K              &hmr LCTRL L  &hmr LSHIFT SEMICOLON  &none
 &none  &kp Z          &kp X         &hml LS(LC(LALT)) C  &kp V        &kp B      &kp N            &kp M            &hmr LS(LC(LALT)) COMMA  &kp DOT       &kp FSLH               &none
-                                    &lt 4 ESC            &lt 3 SPACE  &kp TAB    &lt 2 LEFT_META  &lt 1 BACKSPACE  &hmr GLOBE DEL
+                                    &lt 4 ESC            &lt 3 SPACE  &kp TAB    &lt 2 LEFT_META  &lt 1 BACKSPACE  &lt 5 DEL
             >;
         };
 
@@ -122,6 +122,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_PREV        &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_NEXT  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans            &trans             &trans           &trans      &trans
                         &trans  &trans  &trans    &trans  &kp K_PLAY_PAUSE  &trans
+            >;
+        };
+
+        fn {
+            bindings = <
+&trans  &kp F12  &kp F7  &kp F8  &kp F9  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F11  &kp F4  &kp F5  &kp F6  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp F10  &kp F1  &kp F2  &kp F3  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                         &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
