@@ -31,6 +31,16 @@
             bindings = <&bt BT_NXT>;
             key-positions = <9 10>;
         };
+
+        bt0 {
+            bindings = <&bt BT_SEL 0>;
+            key-positions = <10 9 26>;
+        };
+
+        bt1 {
+            bindings = <&bt BT_SEL 1>;
+            key-positions = <10 9 27>;
+        };
     };
 
     behaviors {
