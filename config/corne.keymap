@@ -19,7 +19,7 @@
 
         quote {
             bindings = <&kp APOSTROPHE>;
-            key-positions = <21 22>;
+            key-positions = <33 34>;
         };
 
         capsword {
@@ -82,10 +82,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q          &kp W         &kp E               &kp R        &kp T      &kp Y        &kp U            &kp I                    &kp O         &kp P                  &none
-&none  &hml LSHIFT A  &hml LCTRL S  &hml LALT D         &hml LGUI F  &kp G      &kp H        &hmr LGUI J      &hmr LALT K              &hmr LCTRL L  &hmr LSHIFT SEMICOLON  &none
-&none  &kp Z          &kp X         &mt LS(LC(LALT)) C  &kp V        &kp B      &kp N        &kp M            &hmr LS(LC(LALT)) COMMA  &kp DOT       &kp FSLH               &none
-                                    &lt 4 ESC           &lt 3 SPACE  &kp TAB    &lt 2 ENTER  &lt 1 BACKSPACE  &kp DEL
+&none  &kp Q          &kp W         &kp E                &kp R        &kp T      &kp Y        &kp U            &kp I                    &kp O         &kp P                  &none
+&none  &hml LSHIFT A  &hml LCTRL S  &hml LALT D          &hml LGUI F  &kp G      &kp H        &hmr LGUI J      &hmr LALT K              &hmr LCTRL L  &hmr LSHIFT SEMICOLON  &none
+&none  &kp Z          &kp X         &hml LS(LC(LALT)) C  &kp V        &kp B      &kp N        &kp M            &hmr LS(LC(LALT)) COMMA  &kp DOT       &kp FSLH               &none
+                                    &lt 4 ESC            &lt 3 SPACE  &kp TAB    &lt 2 ENTER  &lt 1 BACKSPACE  &kp DEL
             >;
         };
 
@@ -100,10 +100,10 @@
 
         sym {
             bindings = <
-&trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans          &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans  &trans  &trans  &trans  &trans
-                                         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans  &trans
+&trans  &kp LEFT_BRACE    &kp AMPERSAND    &kp ASTERISK          &kp LEFT_PARENTHESIS   &kp RIGHT_BRACE    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp SINGLE_QUOTE  &kp DOLLAR       &kp PERCENT           &kp CARET              &kp PLUS           &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp TILDE         &kp EXCLAMATION  &kp AT_SIGN           &kp HASH               &kp PIPE           &trans  &trans  &trans  &trans  &trans  &trans
+                                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE     &trans  &trans  &trans
             >;
         };
 
