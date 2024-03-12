@@ -41,6 +41,21 @@
             bindings = <&bt BT_SEL 1>;
             key-positions = <10 9 27>;
         };
+
+        Cut {
+            bindings = <&kp K_CUT>;
+            key-positions = <25 26>;
+        };
+
+        Copy {
+            bindings = <&kp K_COPY>;
+            key-positions = <25 27>;
+        };
+
+        Paste {
+            bindings = <&kp K_PASTE>;
+            key-positions = <25 28>;
+        };
     };
 
     behaviors {
