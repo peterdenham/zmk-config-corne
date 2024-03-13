@@ -27,11 +27,6 @@
             key-positions = <13 22>;
         };
 
-        nextbt {
-            bindings = <&bt BT_NXT>;
-            key-positions = <9 10>;
-        };
-
         bt0 {
             bindings = <&bt BT_SEL 0>;
             key-positions = <10 9 26>;
