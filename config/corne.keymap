@@ -51,6 +51,16 @@
             bindings = <&kp K_PASTE>;
             key-positions = <25 28>;
         };
+
+        btnext {
+            bindings = <&bt BT_NXT>;
+            key-positions = <8 10>;
+        };
+
+        bt2 {
+            bindings = <&bt BT_SEL 2>;
+            key-positions = <10 9 28>;
+        };
     };
 
     behaviors {
