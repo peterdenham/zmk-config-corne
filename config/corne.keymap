@@ -135,9 +135,9 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans     &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans          &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT   &kp DOWN   &kp UP          &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &kp KP_NUMLOCK  &trans     &trans
                         &trans  &trans  &trans    &trans  &trans     &trans
             >;
         };
