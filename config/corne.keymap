@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 
 / {
     combos {
@@ -134,10 +135,10 @@
 
         nav {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans  &trans     &trans
-                        &trans  &trans  &trans    &trans  &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans     &trans     &trans     &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &mkp LCLK  &mkp RCLK  &mkp MCLK  &trans     &trans
+                        &trans  &trans  &trans    &trans  &trans     &trans
             >;
         };
 
